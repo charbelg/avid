@@ -1,0 +1,272 @@
+body{
+	background-image:url('../images/tile.png');
+	font-family: CALIBRI,Verdana,Helvetica,sans-serif;
+}
+
+img{
+	border:none;
+}
+
+img a{
+	border:none;
+}
+
+h1{
+	font-size:18px;
+	color:#666666;
+}
+
+/* Common CSS classes
+*/
+.transparent{
+	opacity:0.9;
+	filter:alpha(opacity=90);
+}
+
+.roundCorners{
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+}
+
+.centered{
+	margin-left: auto;
+    margin-right: auto;
+}
+
+.homeContent{
+	width:90%;
+	margin-left:45px;
+}
+
+.shadowEffect{
+	-moz-box-shadow: 0 0 5px 5px #87A5F1;
+	-webkit-box-shadow: 0 0 5px 5px#87A5F1;
+	box-shadow: 0 0 5px 5px #87A5F1;
+}
+
+.clear{
+	clear:both;
+}
+
+.menuButton{
+	height:70px;
+	opacity:0.6;
+	filter:alpha(opacity=60);
+}
+
+.menuButton:hover{
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+.addFormDD{
+	width:300px;
+	font-size:14px;
+	border-color:#CCCCCC;
+	border-width:2px;
+	padding:5px;
+	outline:none;
+	background: url('../images/down.png') no-repeat right white;
+	height:35px;
+	margin-top:15px;
+}
+
+.addFormTextField{
+	width:290px;
+	font-size:14px;
+	border-color:#CCCCCC;
+	border-width:2px;
+	outline:none;
+	height:30px;
+	margin-top:15px;
+	padding-left:8px;
+	border-style:solid;
+}
+
+.addFormLabel{
+	float:left;
+	min-width:95px;
+	height:35px;
+	margin-top:5px;
+}
+
+.addFormLabel h2{
+	color:#666666;
+	font-size:18px;
+	font-weight:normal;
+}
+
+.addFormControl{
+	float:left;
+}
+
+.formButton{
+	padding:5px 170px 5px 170px;
+	background-color:#408AD8;
+	color:#FFFFFF;
+	font-size:20px;
+	cursor:pointer;
+	border-color:#F4F4F4;
+	text-decoration:none;
+}
+
+.formButton:hover{
+	background-color:#71A4DD;
+}
+
+.tabHeading{
+	text-align:center;
+	font-size:17px;
+	color:#FFFFFF;
+	background-color:#408AD8;
+	padding:8px;
+	border-bottom:1px solid #81AEE0;
+	cursor:pointer;
+}
+
+.tabHeading:hover{
+	background-color:#71A4DD;
+}
+
+.tabContainer{
+	background-color:#F2F2F2;
+}
+
+.avatarItem{
+	cursor:pointer;
+	opacity:0.85;
+	filter:alpha(opacity=85);
+}
+
+.avatarItem:hover{
+	opacity:1;
+	filter:alpha(opacity=100);
+}
+
+.middle{
+	position:relative;
+	left:40%;
+	top:50px;
+}
+
+.infoBox{
+	position:relative;
+	bottom:45px;
+}
+
+/* Avatar CSS 
+*/
+
+
+.homeAvatar{
+float:left;
+margin-left:20px;
+}
+
+/* Header CSS 
+*/
+
+#headerMenu{
+	width:95%;
+	height:80px;
+	background-color:#FAFAFA;
+}
+
+#logoSection{
+	float:left;
+	margin-left:10px;
+	margin-top:15px;
+}
+
+#menuSection{
+	float:right;
+	margin-top:5px;
+	margin-right:10px;
+}
+
+
+
+/* Content CSS
+*/
+
+#contentBox{
+	width:95%;
+	height:100%;
+	background-color:#FAFAFA;
+	margin-top:10px;
+	min-height:300px;
+}
+
+/* Add Form CSS
+*/
+#addFormContainer{
+	width:80%;
+	padding-bottom:15px;
+}
+
+#leftForm{
+	float:left;
+}
+
+#rightForm{
+	float:right;
+} 
+
+#avatarDisplay{
+	float:right;
+	height:400px;
+	min-height:400px;
+	max-height:400px;
+	width:380px;
+	background-color:#FDFDFD;
+	border:2px solid #CCCCCC;
+	margin-left:20px;
+	margin-top:15px;
+}
+
+/* Tabbed Menu CSS
+*/
+#tabbedAvatarMenu{
+	float:left;
+	width:200px;
+	max-height:400px;
+	min-height:400px;
+}
+
+#tabbedAvatarMenu li,ul{
+	list-style-type:none;
+}
+
+#menuContainer{
+	list-style-type:none;
+}
+
+.av_hair{
+	position:relative;
+	top:65px;
+	left:-20px;
+}
+
+.av_shirt{
+	position:relative;
+	right:10px;
+	bottom:12px;
+}
+
+.av_pants{
+	position:relative;
+	left:2px;
+	bottom:17px;
+}
+
+.av_feet{
+	position:relative;
+	right:8px;
+	bottom:25px;
+}
+
+.av_hands{
+	position:relative;
+	right:51px;
+	bottom:180px;
+}
